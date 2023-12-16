@@ -16,6 +16,7 @@ export default function Product() {
     
     }
     console.log(data);
+    console.log();
   return (
      <>
      <Navbar/>
