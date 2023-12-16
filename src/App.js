@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import UseState1 from './UseState1/UseState1';
+import ApiCallinng from './ApiCalling/ApiCalling';
+import Circle from './circle/Circle';
+import Uncontrolled from './formvalidation/Uncontrolled';
+import Controlled from './formvalidation/controlled';
+import RegistrationForm from './RegistrationForm/Registration';
+import TodoList from './Todo/TodoList';
+import TableObject from './TableAdding/TabaleObject';
+import NavigathionStak from './Navigationstak/NavigathionStak';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          login integration
-        </a>
-      </header>
-    </div>
+    // 
+    <>
+ {/* <UseState1/> */}
+{/* <Uncontrolled/> */}
+    {/* <ApiCallinng/>  */}
+    {/* <Circle/> */}
+    {/* <Controlled/> */}
+    {/* <RegistrationForm/> */}
+    {/* <TodoList/> */}
+    {/* <TableObject/> */}
+    <NavigathionStak/>
+    </>
   );
 }
 

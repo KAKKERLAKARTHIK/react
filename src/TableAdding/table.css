@@ -1,0 +1,7 @@
+table,th,tr,td,thead,tbody{
+    border: 1px solid purple; 
+       padding: 10px;
+  }
+  table{
+       width: 60%;
+  }
